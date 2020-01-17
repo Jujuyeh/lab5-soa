@@ -22,3 +22,4 @@ Please, go to the [Wiki](https://github.com/UNIZAR-30246-WebEngineering/lab5-soa
 | 679301 | [Fernando Bercedo](https://github.com/ferbercedo) |[test](https://github.com/ferbercedo/lab5-soa/tree/test) | |
 | 806420 | [Julio Salceda](https://github.com/phsxes) |[test](https://github.com/phsxes/lab5-soa/tree/test) | |
 | 721525 | [Daniel Fraile](https://github.com/DanFzgz) |[test](https://github.com/DanFzgz/lab5-soa/tree/test) | |
+| 738701 | [Paul Hodgetts Isarría](https://github.com/Jujuyeh) |[test](https://github.com/Jujuyeh/lab5-soa/tree/test) | [bonus](https://github.com/Jujuyeh/lab5-soa/tree/bonus) | :gift:
