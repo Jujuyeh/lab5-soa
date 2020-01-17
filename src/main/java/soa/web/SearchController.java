@@ -28,10 +28,12 @@ public class SearchController {
   @RequestMapping(value = "/search")
   @ResponseBody
   public Object search(@RequestParam("q") String q, 
-      @RequestParam(name = "max", defaultValue = "10", required = false) int max) {
+      @RequestParam(name = "max", defaultValue = "10", required = false) int max,
+      @RequestParam(name = "lang", defaultValue = "es", required = false) String lang) {
     HashMap<String, Object> headers = new HashMap<>();
     headers.put("CamelTwitterKeywords", q);
     headers.put("CamelTwitterCount", max);
+    headers.put("CamelTwitterSearchLanguage", lang);
     return producerTemplate.requestBodyAndHeaders("direct:search", "", headers);
   }
 }
